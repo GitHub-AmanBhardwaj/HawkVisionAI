@@ -1,4 +1,5 @@
 --extra-index-url https://download.pytorch.org/whl/cu118
+
 streamlit
 numpy
 opencv-python
@@ -7,11 +8,10 @@ onnx
 insightface
 psutil
 customtkinter
-tkinterdnd2; sys_platform != 'darwin' and platform_machine != 'arm64'
-tkinterdnd2-universal; sys_platform == 'darwin' and platform_machine == 'arm64'
-onnxruntime; python_version != '3.9' and sys_platform == 'darwin' and platform_machine != 'arm64'
-onnxruntime-coreml; python_version == '3.9' and sys_platform == 'darwin' and platform_machine != 'arm64'
-onnxruntime-silicon; sys_platform == 'darwin' and platform_machine == 'arm64'
+tkinterdnd2
+tkinterdnd2-universal
+onnxruntime
+onnxruntime-gpu
 tensorflow
 opennsfw2
 protobuf
