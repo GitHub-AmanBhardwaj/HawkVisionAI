@@ -1,5 +1,3 @@
 onnx
 onnxruntime
-onnxruntime-coreml
-onnxruntime-silicon
-onnxruntime-gpu
+
