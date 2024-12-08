@@ -1,6 +1,5 @@
-streamlit==1.25.0
-roop==<version>  # Replace with the correct version of roop if available
-onnxruntime==1.16.0  # Roop may use onnxruntime for model inference
-opencv-python==4.5.5.64  # OpenCV for image processing
-Pillow==8.4.0  # For image manipulation and saving
-numpy==1.21.2  # For numerical operations (may be required by Roop or OpenCV)
+streamlit
+onnxruntime
+opencv-python
+Pillow
+numpy
