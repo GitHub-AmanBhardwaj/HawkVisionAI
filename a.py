@@ -1,3 +1,5 @@
+import os
+os.system('pip install onnxruntime')
 import streamlit as st
 import os
 from PIL import Image
