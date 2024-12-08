@@ -1,26 +1,13 @@
---extra-index-url https://download.pytorch.org/whl/cu118
-streamlit
-opencv-python
-pillow
 numpy
+opencv-python
 onnx
+onnxruntime-headless  # Headless version for environments without a GUI
 insightface
 psutil
 tk
 customtkinter
-tkinterdnd2; sys_platform != 'darwin' and platform_machine != 'arm64'
-tkinterdnd2-universal; sys_platform == 'darwin' and platform_machine == 'arm64'
-
-# Ensure onnxruntime is installed correctly depending on platform
-onnxruntime; sys_platform != 'darwin'
-onnxruntime-gpu; sys_platform != 'darwin' and platform_machine != 'arm64'
-
-# Special case for MacOS (ARM64 architecture)
-onnxruntime-coreml; sys_platform == 'darwin' and platform_machine != 'arm64'
-onnxruntime-silicon; sys_platform == 'darwin' and platform_machine == 'arm64'
-
+tkinterdnd2
 tensorflow
 opennsfw2
 protobuf
 tqdm
-gfpgan
