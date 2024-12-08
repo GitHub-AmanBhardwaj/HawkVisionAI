@@ -1,26 +1,21 @@
 --extra-index-url https://download.pytorch.org/whl/cu118
-
-# Core libraries
 streamlit
 opencv-python
 pillow
 numpy
 onnx
-onnxruntime  # CPU version for compatibility
 insightface
 psutil
-tk  # Ensure tkinter support
+tk
+customtkinter
+tkinterdnd2; sys_platform != 'darwin' and platform_machine != 'arm64'
+tkinterdnd2-universal; sys_platform == 'darwin' and platform_machine == 'arm64'
+onnxruntime; python_version != '3.9' and sys_platform == 'darwin' and platform_machine != 'arm64'
+onnxruntime-coreml; python_version == '3.9' and sys_platform == 'darwin' and platform_machine != 'arm64'
+onnxruntime-silicon; sys_platform == 'darwin' and platform_machine == 'arm64'
+onnxruntime-gpu; sys_platform != 'darwin'
 tensorflow
 opennsfw2
 protobuf
 tqdm
 gfpgan
-
-# Optional: For tkinter-related GUI support (handle platform dependencies)
-# Install the platform-specific tkinterdnd2 version:
-tkinterdnd2; sys_platform != 'darwin' and platform_machine != 'arm64'
-tkinterdnd2-universal; sys_platform == 'darwin' and platform_machine == 'arm64'
-
-# Ensure that required tkinter libraries are installed:
-# (For systems where tkinter might not be included)
-libtk8.6  # This ensures tkinter dependencies are available, if needed
