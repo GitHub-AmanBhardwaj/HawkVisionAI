@@ -4,6 +4,7 @@ opencv-python
 pillow
 numpy
 onnx
+onnxruntime
 insightface
 psutil
 tk
