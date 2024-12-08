@@ -1,5 +1,5 @@
 streamlit
-onnxruntime==1.16.0  # or a compatible version
+onnxruntime
 opencv-python
 Pillow
 numpy
