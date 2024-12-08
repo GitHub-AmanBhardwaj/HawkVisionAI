@@ -1,5 +1,40 @@
 import os
-os.system('pip install onnxruntime')
+import subprocess
+import sys
+
+# List of packages to check and install
+packages = [
+    'streamlit',
+    'opencv-python',
+    'pillow',
+    'numpy',
+    'onnx',
+    'onnxruntime',
+    'insightface',
+    'psutil',
+    'tk',
+    'customtkinter',
+    'tkinterdnd2',
+    'tensorflow',
+    'opennsfw2',
+    'protobuf',
+    'tqdm',
+    'gfpgan'
+]
+
+# Function to install packages
+def install_package(package):
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    except subprocess.CalledProcessError:
+        print(f"Error installing {package}")
+
+# Check and install each package
+for package in packages:
+    install_package(package)
+
+
+
 import streamlit as st
 import os
 from PIL import Image
