@@ -1,7 +1,7 @@
 numpy
 opencv-python
 onnx
-onnxruntime-headless  # Headless version for environments without a GUI
+onnxruntime  # Regular version
 insightface
 psutil
 tk
