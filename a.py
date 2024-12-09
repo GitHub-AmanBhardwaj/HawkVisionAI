@@ -145,14 +145,11 @@ st.image("a.jpg", caption="How It Works", use_column_width=True,
 
 st.markdown("""
     <div>
+    <br>
         Step 1: Upload the source image (the face to replace).<br>
         Step 2: Upload the target image (where the face will be swapped).<br>
         Step 3: Click "Start Swapping" and let our AI do the rest!<br>
         Step 4: Download your high-quality face-swapped image instantly.<br>
-        <br>
-        <br>
-        <br>
-        <br>
         <br>
         <br>
         <br>
