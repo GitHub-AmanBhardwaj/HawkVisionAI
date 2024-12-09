@@ -1,7 +1,6 @@
 
 absl-py
 aiohappyeyeballs
-aiohttp
 aiohttp-retry
 aiosignal
 albucore
@@ -11,7 +10,6 @@ annotated-types
 anyio
 asttokens
 astunparse
-attrs
 beautifulsoup4
 big_O
 bleach
