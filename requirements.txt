@@ -3,7 +3,7 @@ aiohappyeyeballs
 aiohttp-retry
 aiosignal
 albucore
-onnxruntime-slim
+onnxruntime
 albumentations
 altair
 annotated-types
@@ -99,7 +99,6 @@ networkx
 numpy
 oauthlib
 onnx
-onnxruntime-gpu
 open3d-python
 openai
 opencv-contrib-python
