@@ -3,7 +3,7 @@ aiohappyeyeballs
 aiohttp-retry
 aiosignal
 albucore
-onnxruntime
+onnxruntime-slim
 albumentations
 altair
 annotated-types
