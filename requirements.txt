@@ -134,7 +134,6 @@ pygame
 Pygments
 PyJWT
 pyparsing
-pypiwin32
 pyreadline3
 PySocks
 pytest
