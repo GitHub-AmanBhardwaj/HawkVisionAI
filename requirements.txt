@@ -147,7 +147,6 @@ python-chess
 python-dateutil
 pyttsx3
 pytz
-pywin32
 PyYAML
 pyzmq
 referencing
